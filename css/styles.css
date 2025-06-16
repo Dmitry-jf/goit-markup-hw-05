@@ -777,6 +777,16 @@ h1 {
   cursor: pointer
 }
 
+.check-text {
+  display: inline-flex;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  line-height: 1.17;
+}
+
 .check-element {
   height: 16px;
   width: 16px;
@@ -794,16 +804,6 @@ h1 {
   display: inline-flex;
 }
 
-.check-text {
-  display: inline-flex;
-  align-items: center;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.16667;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-  line-height: 1.17;
-}
 
 .modal-check:checked + .check-text .check-element {
   background-color: #404bbf;
