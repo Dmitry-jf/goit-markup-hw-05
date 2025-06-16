@@ -536,7 +536,7 @@ h1 {
 
 .footer-form {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   gap: 24px;
 }
 
@@ -556,31 +556,6 @@ h1 {
   color: #ffffff;
 }
 
-.footer-btn {
-  font-family: "Roboto" sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  gap: 16px;
-
-  border-radius: 4px;
-  padding: 8px 24px;
-  width: 165px;
-  height: 40px;
-
-  background: #4d5ae5;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  text-align: center;
-  color: #ffffff;
-  padding: 8px 64px 8px 24px;
-  border: none;
-  cursor: pointer;
-}
-
 .footer-input-email::placeholder {
   padding: 8px 209px 8px 19px;
   font-weight: 400;
@@ -590,16 +565,34 @@ h1 {
   color: #ffffff;
 }
 
-.subscribe-button {
-  position: relative;
+.footer-btn {
+  font-family: "Roboto" sans-serif;
+  background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+   color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* flex-direction: row; */
+
+  border-radius: 4px;
+  width: 165px;
+  height: 40px;
+  padding: 8px 0px 8px 24px;
+  
+  border: none;
+  cursor: pointer;
 }
 
 .icon-subscribe {
-  position: absolute;
-  fill: #fff;
-  right: 24px;
-  top: 50%;
-  transform: translateY(-50%);
+  flex-shrink: 0;
+  margin-left: 16px;
+  fill: #ffffff;
+  margin-right: 24px;
 }
 
 /*------backdrop------ */
@@ -755,6 +748,7 @@ h1 {
   position: relative;
 }
 
+/* ______________________________________ */
 .modal-input-icon {
   padding: 3px 0px;
   position: absolute;
