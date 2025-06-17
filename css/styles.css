@@ -616,6 +616,10 @@ h1 {
   visibility: visible;
 }
 
+/* .backdrop:not(.is-open) .modal {
+  transform: translate(-50%, -50%);
+} */
+
 .modal {
   border-radius: 4px;
   width: 408px;
