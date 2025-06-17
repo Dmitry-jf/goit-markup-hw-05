@@ -759,6 +759,7 @@ h1 {
 
 .button-send {
   display: block;
+  
   margin: 0 auto;
   padding: 16px 32px;
   border-radius: 4px;
@@ -778,7 +779,6 @@ h1 {
 }
 
 .check-text {
-  display: inline-flex;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16667;
@@ -814,7 +814,6 @@ h1 {
   line-height: 1.33333;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
-  display: flex;
   margin-left: 4px;
 }
 
